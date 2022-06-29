@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import AddProject from './AddProject';
 import ProjectList from './ProjectList';
+import {ProjectCard} from './ProjectCard';
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
       projects={searchTerm.length < 1 ? projects: searchResults}
       term ={searchTerm}
       searchKeyword = {searchHandler}/>
+      <ProjectCard/>
   </div>
 
        );
