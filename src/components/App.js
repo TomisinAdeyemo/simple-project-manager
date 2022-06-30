@@ -18,6 +18,7 @@ function App() {
   console.log(projects);
   setProjects([...projects, project]);
  };
+ 
 //STORING THE DATA IN THE LOCAL STORAGE
 
  useEffect(() => {

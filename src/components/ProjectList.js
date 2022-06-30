@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import ProjectCard from '/Users/tomidetomero/ogamanager/src/components/ProjectCard.js';
+import ProjectCard from './ProjectCard';
 
 const ProjectList = (props) => {
     console.log(props);
