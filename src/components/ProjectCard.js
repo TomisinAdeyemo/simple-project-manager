@@ -1,6 +1,7 @@
 import React from 'react';
+import App from './App';
 
-const ProjectCard = (props) => {
+export const ProjectCard = (props) => {
     const {projectname, description, team, organization} = props.projects;
 
     return(
@@ -13,5 +14,3 @@ const ProjectCard = (props) => {
     </div>
     );
 }
-
-export default ProjectCard;
