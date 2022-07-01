@@ -1,5 +1,4 @@
 import React from 'react';
-import App from './App';
 
 export const ProjectCard = (props) => {
     const {projectname, description, team, organization} = props.projects;
